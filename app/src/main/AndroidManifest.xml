@@ -11,7 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".lsn08_snackbar.F_SnackBar_Activity">
+        <activity android:name=".lsn11_translucent_toolbar.I_Translucent_Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
