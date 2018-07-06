@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/h_search"
+        android:title="搜索"
+        android:icon="@mipmap/searchview"
+        android:orderInCategory="100"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/b_add"
+        android:icon="@mipmap/add"
+        android:orderInCategory="700"
+        android:title="添加"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/b_delete"
+        android:icon="@mipmap/delete"
+        android:orderInCategory="90"
+        android:title="删除"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/b_change"
+        android:icon="@mipmap/ic_launcher"
+        android:orderInCategory="0"
+        android:title="切换"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/a_shej"
+        android:icon="@mipmap/ic_launcher"
+        android:orderInCategory="20"
+        android:title="搞笑"
+        app:showAsAction="never" />
+</menu>

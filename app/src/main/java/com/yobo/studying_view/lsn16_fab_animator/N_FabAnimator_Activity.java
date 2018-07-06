@@ -37,9 +37,9 @@ public class N_FabAnimator_Activity extends AppCompatActivity implements N_Visib
     }
 
     private void initView() {
-        recler = findViewById(R.id.n_relcer);
-        toolbar = findViewById(R.id.n_toolbar);
-        fab = findViewById(R.id.n_fab);
+        recler = (RecyclerView) findViewById(R.id.n_relcer);
+        toolbar = (Toolbar) findViewById(R.id.n_toolbar);
+        fab = (ImageButton) findViewById(R.id.n_fab);
         reclerList = new ArrayList<>();
         setSupportActionBar(toolbar);
         for (int i = 0; i < 30; i++) {

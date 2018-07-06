@@ -22,7 +22,7 @@ public class M_FloatingActionBar extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.m_floatingactionbutton);
-        fab=findViewById(R.id.m_fab);
+        fab= (FloatingActionButton) findViewById(R.id.m_fab);
 
     }
 

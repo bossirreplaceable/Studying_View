@@ -8,6 +8,8 @@
         <item name="android:textColorSecondary">@android:color/white</item>
         <!--修改searchView样式-->
         <item name="searchViewStyle">@style/SearchViewStyle</item>
+        <!--<item name="android:windowTranslucentStatus">true</item>-->
+        <!--<item name="android:navigationBarColor">@color/colorAccent</item>-->
     </style>
 
     <style name="SearchViewStyle" parent="Widget.AppCompat.SearchView">

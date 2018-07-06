@@ -13,16 +13,13 @@ public class N_ScrollLisntener extends RecyclerView.OnScrollListener {
     private int distance = 20;
     private boolean isVisible = true;
     private N_VisibleListener listener;
-
     public N_ScrollLisntener(N_VisibleListener listener) {
         this.listener = listener;
     }
 
-
     @Override
     public void onScrolled(RecyclerView recyclerView, int dx, int dy) {
         super.onScrolled(recyclerView, dx, dy);
-
         Log.e("N--------------","dx==="+dy);
         if (dy > distance && isVisible) {
             listener.onHide();

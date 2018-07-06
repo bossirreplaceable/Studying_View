@@ -21,7 +21,7 @@ public class L_ChenjinActivity extends BaseTranslucentActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.l_activity);
-        toolbar=findViewById(R.id.l_toolbar);
+        toolbar= (Toolbar) findViewById(R.id.l_toolbar);
         nav_bg=findViewById(R.id.l_nav_bg);
 
         setOrChangeTranslucentColor(toolbar,nav_bg,getResources().getColor(R.color.colorPrimary));

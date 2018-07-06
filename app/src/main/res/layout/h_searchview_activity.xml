@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    android:background="?android:attr/colorPrimaryDark"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:fitsSystemWindows="true"
+        android:id="@+id/h_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        app:navigationIcon="@mipmap/arrow_back"
+        app:title="网易新闻"
+        app:titleTextColor="#fff" />
+
+
+    <ListView
+        android:id="@+id/h_recler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/h_toolbar" />
+
+    <!--<android.support.v7.widget.Toolbar-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:background="@color/colorAccent"-->
+    <!--app:logo="@mipmap/ic_launcher"-->
+    <!--app:navigationIcon="@mipmap/arrow_back"-->
+    <!--app:subtitle="你好啊"-->
+    <!--app:title="网易新闻"-->
+    <!--app:titleTextColor="#fff"/>-->
+
+</RelativeLayout>
